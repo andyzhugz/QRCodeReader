@@ -14,7 +14,7 @@ This API should only be built and run on the local machine. If you are going to 
 | ‘/api/qrcodereader/main’ | GET | main page |
 | ‘/api/qrcodereader/upload/{path}’ | GET | get the text from QR CODE |
 
-e.g. when use curl to test,
+When use curl to test it, use the pattern
 `curl -X GET "https://localhost:5001/api/qrcodereader/upload/{path}`
 
 And there is an existed test, you can use
