@@ -17,5 +17,8 @@ This API should only be built and run on the local machine. If you are going to 
 e.g. when use curl to test,
 `curl -X GET "https://localhost:5001/api/qrcodereader/upload/{path}`
 
+And there is an existed test, you can use
+`curl -X GET "https://localhost:5001/api/qrcodereader/upload/qrcode.png` to run it.
+
 Default port is 5001.
 
